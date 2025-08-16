@@ -12,7 +12,7 @@ jobs:
         run: echo "Hello World !!!"
       - name: "ação dois"
         run: | 
-          cat ./text.txt
+          cat ./exemplo.txt
   segundo-job:
     name: "Instalação do Ambiente NodeJS"
     runs-on: ubuntu-latest
