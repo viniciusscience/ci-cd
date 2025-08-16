@@ -15,6 +15,7 @@ jobs:
           echo "Você criou o seu workflow!!!"
           echo "Parabêns !!!"
           ls -la >> text.txt
+          cat text.txt
   segundo-job:
     name: "Instalação do Ambiente NodeJS"
     runs-on: ubuntu-latest
