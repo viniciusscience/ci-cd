@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout do código"
-        uses: actions/checkout@v4   # <-- baixa os arquivos do repositório
+        uses: actions/checkout@v4   
       - name: "ação dois"
-        run: cat exemplo.txt   # agora funciona
+        run: cat exemplo.txt 
   segundo-job:
     name: "Instalação do Ambiente NodeJS"
     runs-on: ubuntu-latest
